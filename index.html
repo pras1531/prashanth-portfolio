@@ -1,80 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prashanth Sappanametla | Engineering Manager</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prashanth Sappanametla | Remote Engineering Manager & Cloud Architect</title>
+  <meta name="description" content="Engineering Manager & Senior Technical Leader with 12+ years specializing in Java 17/21, Spring Boot, Microservices, AWS, Distributed Systems, and Remote Engineering Leadership." />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              900: '#0f172a',
+              950: '#020617',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.15; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(1.05); }
+    }
+    .animate-glow {
+      animation: pulse-glow 8s infinite ease-in-out;
+    }
+  </style>
 </head>
-<body class="font-sans bg-gray-50 text-gray-900">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-500 selection:text-white min-h-screen">
+
+  <!-- Ambient Animated Background Lights -->
+  <div class="fixed top-0 left-1/4 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[120px] pointer-events-none animate-glow"></div>
+  <div class="fixed bottom-0 right-1/4 w-[500px] h-[500px] bg-purple-600/15 rounded-full blur-[120px] pointer-events-none animate-glow"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-xl tracking-tight text-white flex items-center gap-2">
+        <span class="text-blue-500">&lt;</span>Prashanth.S <span class="text-blue-500">/&gt;</span>
+      </a>
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-blue-400 transition-colors">Executive Profile</a>
+        <a href="#skills" class="hover:text-blue-400 transition-colors">Core Stack</a>
+        <a href="#experience" class="hover:text-blue-400 transition-colors">Experience</a>
+        <a href="#remote-capabilities" class="hover:text-blue-400 transition-colors">Remote Delivery</a>
+        <a href="#architecture" class="hover:text-blue-400 transition-colors">Architecture</a>
+        <a href="#contact" class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-lg shadow-blue-500/20">Contact / Hire</a>
+      </div>
+    </div>
+  </nav>
 
   <!-- Hero Section -->
-  <header class="bg-gray-900 text-white text-center py-12">
-    <h1 class="text-4xl font-bold">Prashanth Sappanametla</h1>
-    <p class="text-xl mt-2">Engineering Manager | Cloud-Native Architecture | Remote Leadership</p>
-    <div class="mt-6">
-      <a href="Prashanth_Resume.pdf" class="bg-blue-600 px-6 py-2 rounded hover:bg-blue-700">Download Resume</a>
-      <a href="https://www.linkedin.com/in/prashanth" class="ml-4 bg-green-600 px-6 py-2 rounded hover:bg-green-700">Connect on LinkedIn</a>
+  <section class="relative pt-32 pb-16 px-6 max-w-6xl mx-auto flex flex-col justify-center min-h-[90vh]">
+    
+    <!-- Recruiter Quick Summary Badges -->
+    <div class="flex flex-wrap gap-2.5 mb-6">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold shadow-md shadow-blue-500/5">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+        </span>
+        100% Remote Ready / Worldwide / Flexible Hours
+      </div>
+      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 text-xs font-medium">
+        <i data-lucide="globe" class="w-3.5 h-3.5 text-blue-400"></i> Open to US / EU / APAC Overlap
+      </div>
+      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 text-xs font-medium">
+        <i data-lucide="award" class="w-3.5 h-3.5 text-purple-400"></i> AWS Certified Cloud Practitioner
+      </div>
     </div>
-  </header>
 
-  <!-- About Section -->
-  <section id="about" class="py-12 px-6 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-semibold mb-4">About Me</h2>
-    <p class="text-lg leading-relaxed">
-      Engineering Manager with 12+ years of experience in cloud-native architecture, microservices, and distributed systems. 
-      Proven success in leading remote teams, scaling platforms, and delivering enterprise solutions across global markets. 
-      Passionate about building resilient systems and mentoring engineers for career growth.
+    <!-- Main Title with Typewriter Effect -->
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl leading-tight">
+      Prashanth Sappanametla <br/>
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400" id="typed-headline">Engineering Manager</span>
+    </h1>
+
+    <!-- Narrative Executive Summary -->
+    <p class="mt-6 text-lg md:text-xl text-slate-300 max-w-3xl leading-relaxed">
+      <strong class="text-white">12+ years of enterprise software engineering &amp; remote leadership experience.</strong> Specialized in modernizing complex monoliths into cloud-native microservices, building high-throughput distributed systems (<strong class="text-blue-400">Java 17/21, Spring Boot 3, Kafka, AWS, Docker/K8s</strong>), and managing cross-border distributed teams for Fortune 50 clients including Apple and Deloitte.
     </p>
-  </section>
 
-  <!-- Experience Section -->
-  <section id="experience" class="py-12 px-6 bg-gray-100 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-semibold mb-4">Experience</h2>
-    <div class="mb-6">
-      <h3 class="text-xl font-bold">Engineering Manager – XYZ Corp</h3>
-      <p class="italic">2019 – Present | Remote</p>
-      <ul class="list-disc ml-6 mt-2">
-        <li>Scaled platform capacity by 3x through event-driven microservices.</li>
-        <li>Reduced deployment errors by 40% with CI/CD automation.</li>
-        <li>Led a distributed team of 15 engineers across 3 countries.</li>
-      </ul>
-    </div>
-    <div class="mb-6">
-      <h3 class="text-xl font-bold">Senior Software Engineer – ABC Tech</h3>
-      <p class="italic">2014 – 2019 | Hyderabad</p>
-      <ul class="list-disc ml-6 mt-2">
-        <li>Designed and implemented scalable APIs serving millions of requests daily.</li>
-        <li>Introduced automated testing pipelines, reducing bug count by 30%.</li>
-        <li>Mentored junior engineers, fostering a culture of continuous learning.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="py-12 px-6 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-semibold mb-4">Core Skills</h2>
-    <div class="grid grid-cols-2 gap-4 text-lg">
-      <p>Cloud Architecture (AWS, Azure, GCP)</p>
-      <p>Microservices & Event-Driven Systems</p>
-      <p>CI/CD Automation (GitHub Actions, Jenkins)</p>
-      <p>Remote Team Leadership & Agile Delivery</p>
-      <p>Distributed Systems & Scalability</p>
-      <p>Collaboration Tools (Jira, Confluence, Slack, Zoom)</p>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-12 px-6 bg-gray-900 text-white text-center">
-    <h2 class="text-3xl font-semibold mb-4">Let’s Work Together</h2>
-    <p class="mb-4">Available for remote engineering leadership opportunities worldwide.</p>
-    <a href="mailto:prashanth@example.com" class="bg-blue-600 px-6 py-2 rounded hover:bg-blue-700">Email Me</a>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-800 text-white text-center py-4">
-    <p>&copy; 2026 Prashanth Sappanametla. All rights reserved.</p>
-  </footer>
-
-</body>
-</html>
+    <!-- Key Recruiter Metric Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 pt-8 border-t border-slate-800/80">
