@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prashanth S. | Engineering Manager & Technology Leader</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              900: '#0f172a',
+              950: '#020617',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.15; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(1.05); }
+    }
+    .animate-glow {
+      animation: pulse-glow 8s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-500 selection:text-white min-h-screen">
+
+  <!-- Ambient Animated Background Lights -->
+  <div class="fixed top-0 left-1/4 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[120px] pointer-events-none animate-glow"></div>
+  <div class="fixed bottom-0 right-1/4 w-[500px] h-[500px] bg-purple-600/15 rounded-full blur-[120px] pointer-events-none animate-glow"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-xl tracking-tight text-white flex items-center gap-2">
+        <span class="text-blue-500">&lt;</span>Prashanth.S <span class="text-blue-500">/&gt;</span>
+      </a>
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
+        <a href="#experience" class="hover:text-blue-400 transition-colors">Experience</a>
+        <a href="#architecture" class="hover:text-blue-400 transition-colors">Architecture</a>
+        <a href="#contact" class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-lg shadow-blue-500/20">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative pt-36 pb-20 px-6 max-w-6xl mx-auto flex flex-col justify-center min-h-[90vh]">
+    
+    <!-- Status Badge -->
+    <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-slate-900/90 border border-blue-500/30 text-blue-400 text-sm font-medium w-fit mb-6 shadow-lg shadow-blue-500/10">
+      <span class="relative flex h-2.5 w-2.5">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+      </span>
+      <span>Serving Notice Period (30 Days) &bull; Immediate Joiner (Hyderabad / Remote)</span>
+    </div>
+
+    <!-- Main Title with Typewriter Effect -->
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl leading-tight">
+      Prashanth Sappanametla <br/>
+      <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400" id="typed-headline">Engineering Manager</span>
+    </h1>
+
+    <!-- Narrative Summary -->
+    <p class="mt-6 text-lg md:text-xl text-slate-300 max-w-3xl leading-relaxed">
+      <strong class="text-white">12+ years of full-stack engineering &amp; technical leadership.</strong> Specialized in modernizing enterprise legacy monoliths into cloud-native microservices, building high-throughput distributed systems (<strong class="text-blue-400">Java, Spring Boot, Kafka, AWS</strong>), and scaling engineering teams across global initiatives.
+    </p>
+
+    <!-- Quick Stats Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 pt-8 border-t border-slate-800/80">
+      <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+        <div class="text-3xl font-bold text-white">12+ Years</div>
+        <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">Enterprise Leadership</div>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+        <div class="text-3xl font-bold text-white">Deloitte / Wipro</div>
+        <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">Global Delivery Track</div>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+        <div class="text-3xl font-bold text-white">AWS &amp; GenAI</div>
+        <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">Certified Practitioner</div>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
+        <div class="text-3xl font-bold text-white">Java &amp; Kafka</div>
+        <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">Cloud Architecture</div>
+      </div>
+    </div>
+
+    <!-- Call to Actions -->
+    <div class="flex flex-wrap gap-4 mt-8">
+      <a href="https://www.linkedin.com/in/prashanth-sappanametla-77347272" target="_blank" class="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold flex items-center gap-2 transition-all shadow-lg shadow-blue-500/25">
+        <i data-lucide="linkedin" class="w-5 h-5"></i> View LinkedIn
+      </a>
+      <a href="#contact" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold flex items-center gap-2 transition-all">
+        <i data-lucide="mail" class="w-5 h-5"></i> Send Direct Message
+      </a>
+    </div>
+  </section>
+
+  <!-- Detailed About Me Section -->
+  <section id="about" class="py-20 border-t border-slate-800/80 bg-slate-900/20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-white mb-2">Executive Profile Narrative</h2>
+      <p class="text-slate-400 mb-8">Bridging technical architecture and engineering operational leadership.</p>
+
+      <div class="grid md:grid-cols-2 gap-8 leading-relaxed text-slate-300 text-base">
+        <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-4">
+          <h3 class="text-xl font-bold text-white flex items-center gap-2">
+            <i data-lucide="terminal" class="w-5 h-5 text-blue-400"></i> Technical Expertise
+          </h3>
+          <p>
+            Specialized in designing resilient, high-throughput microservices using <strong class="text-white">Java 17/21</strong>, <strong class="text-white">Spring Boot 3</strong>, <strong class="text-white">Apache Kafka</strong>, and <strong class="text-white">AWS Cloud Infrastructure</strong>.
+          </p>
+          <p>
+            Proven expertise in strangling legacy monoliths into distributed event-driven systems while implementing resilience design patterns (Circuit Breakers, Rate Limiting, and CQRS) to maintain system availability during peak traffic.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-4">
+          <h3 class="text-xl font-bold text-white flex items-center gap-2">
+            <i data-lucide="users" class="w-5 h-5 text-indigo-400"></i> Delivery &amp; Leadership
+          </h3>
+          <p>
+            Experienced in leading multi-functional engineering squads, establishing CI/CD deployment automation pipelines, and championing strict code quality standards.
+          </p>
+          <p>
+            Accustomed to managing client relationships (including Fortune 50 engagements like Apple), defining technical roadmaps, and integrating Generative AI tools to accelerate daily sprint delivery workflows.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline Section -->
+  <section id="experience" class="py-20 border-t border-slate-800/80 bg-slate-950">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-white mb-2">Career Experience &amp; Highlights</h2>
+      <p class="text-slate-400 mb-12">Leadership roles and technical contributions across tier-1 organizations.</p>
+
+      <div class="space-y-8 relative before:absolute before:inset-0 before:left-3 md:before:left-1/2 before:-ml-px before:w-0.5 before:bg-slate-800">
+
+        <!-- Role 1: Deloitte -->
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-lg shadow-blue-500/50">
+            <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
+          </div>
+          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl">
+            <div class="flex justify-between items-start mb-2">
+              <div>
+                <h3 class="font-bold text-xl text-white">Manager</h3>
+                <span class="text-blue-400 font-medium text-sm">Deloitte</span>
+              </div>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">Feb 2025 – Present</span>
+            </div>
+            <ul class="text-slate-300 text-sm space-y-2 mt-4 list-disc list-inside leading-relaxed">
+              <li>Directing cross-functional engineering teams in modernizing enterprise architecture, transitioning legacy monolithic systems into highly resilient microservices.</li>
+              <li>Architected end-to-end event-driven microservices using <strong class="text-white">Java 17/21</strong>, <strong class="text-white">Spring Boot 3</strong>, <strong class="text-white">Kafka</strong>, and <strong class="text-white">AWS</strong>, scaling platform capacity.</li>
+              <li>Led GenAI and automation initiatives across development workflows, integrating cloud-native services and AI capabilities to streamline team delivery.</li>
+              <li>Managed end-to-end project delivery, technical roadmaps, sprint planning, and cross-team stakeholder alignment.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 2: Wipro -->
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-800 text-slate-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+            <i data-lucide="code" class="w-3.5 h-3.5"></i>
+          </div>
+          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl">
+            <div class="flex justify-between items-start mb-2">
+              <div>
+                <h3 class="font-bold text-xl text-white">Lead Engineer</h3>
+                <span class="text-blue-400 font-medium text-sm">Wipro (Apple Client)</span>
+              </div>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">Feb 2022 – Jan 2025</span>
+            </div>
+            <ul class="text-slate-300 text-sm space-y-2 mt-4 list-disc list-inside leading-relaxed">
+              <li>Technical Lead for high-throughput backend services supporting client-facing platforms on <strong class="text-white">Java</strong>, <strong class="text-white">Spring Boot</strong>, <strong class="text-white">REST APIs</strong>, and <strong class="text-white">SQL</strong>.</li>
+              <li>Designed and optimized microservices architecture, implementing resilient design patterns (Circuit Breakers, Rate Limiting) to maintain high availability under peak load.</li>
+              <li>Mentored a team of 8+ full-stack and backend software engineers, championing strict code quality standards, automated testing, and code review practices.</li>
+              <li>Collaborated closely with product managers and enterprise client stakeholders to execute seamless release cycles.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 3: HCL Technologies -->
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-800 text-slate-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+            <i data-lucide="layers" class="w-3.5 h-3.5"></i>
+          </div>
+          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl">
+            <div class="flex justify-between items-start mb-2">
+              <div>
+                <h3 class="font-bold text-xl text-white">Technical Lead</h3>
+                <span class="text-blue-400 font-medium text-sm">HCL Technologies</span>
+              </div>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">Aug 2019 – Jan 2022</span>
+            </div>
+            <ul class="text-slate-300 text-sm space-y-2 mt-4 list-disc list-inside leading-relaxed">
+              <li>Spearheaded backend development and integration of high-reliability microservices and RESTful web services.</li>
+              <li>Integrated <strong class="text-white">Apache Kafka</strong> messaging streams for asynchronous, event-driven data processing across core financial components (e.g., PayLah Wallet integrations).</li>
+              <li>Spearheaded CI/CD deployment pipeline improvements on AWS, decreasing deployment errors and shortening release turnaround times.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 4: Cognizant -->
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-800 text-slate-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+            <i data-lucide="database" class="w-3.5 h-3.5"></i>
+          </div>
+          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl">
+            <div class="flex justify-between items-start mb-2">
+              <div>
+                <h3 class="font-bold text-xl text-white">Associate</h3>
+                <span class="text-blue-400 font-medium text-sm">Cognizant Technology Solutions</span>
+              </div>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">Apr 2014 – Jun 2019</span>
+            </div>
+            <ul class="text-slate-300 text-sm space-y-2 mt-4 list-disc list-inside leading-relaxed">
+              <li>Core developer in product management/development for digital asset management products (<strong class="text-white">AssetSERV</strong>).</li>
+              <li>Developed robust, full-stack enterprise web applications using <strong class="text-white">Java</strong>, <strong class="text-white">Spring</strong>, <strong class="text-white">Hibernate</strong>, <strong class="text-white">MySQL</strong>, and <strong class="text-white">MSSQL</strong>.</li>
+              <li>Optimized database queries, complex stored procedures, and ORM mappings to significantly improve data retrieval speeds and performance.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Architectural Focus Grid -->
+  <section id="architecture" class="py-20 border-t border-slate-800/80 bg-slate-900/40">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-white mb-2">Architectural Standards &amp; Patterns</h2>
+      <p class="text-slate-400 mb-10">Core technical design patterns applied across enterprise systems.</p>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/40 transition-colors">
+          <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-4">
+            <i data-lucide="git-fork" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Monolith Decoupling</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Migrating complex monolithic codebases into independent domain-driven cloud microservices using the Strangler Fig pattern.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-purple-500/40 transition-colors">
+          <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-4">
+            <i data-lucide="activity" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Event Streaming</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Building real-time asynchronous streaming pipelines using Apache Kafka for high-throughput event processing.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/40 transition-colors">
+          <div class="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-4">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Resilience Patterns</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Implementing Resilience4j circuit breakers, retry mechanics, and rate limiters to ensure high system uptime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Contact Form Section -->
+  <section id="contact" class="py-20 border-t border-slate-800/80 bg-slate-950">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-white">Get In Touch</h2>
+      <p class="mt-2 text-slate-400 max-w-xl mx-auto">
+        Actively exploring <strong class="text-white">Engineering Manager</strong>, <strong class="text-white">Senior EM</strong>, and <strong class="text-white">Technical Delivery Lead</strong> opportunities in Hyderabad or Remote.
+      </p>
+
+      <!-- Functional Form -->
+      <form id="contact-form" onsubmit="handleFormSubmit(event)" class="mt-8 text-left max-w-xl mx-auto space-y-4 p-8 rounded-2xl bg-slate-900/90 border border-slate-800 shadow-2xl">
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Your Name</label>
+          <input type="text" required placeholder="Recruiter / Hiring Manager Name" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors" />
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Company / Email</label>
+          <input type="email" required placeholder="name@company.com" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors" />
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Message / Job Opportunity</label>
+          <textarea rows="4" required placeholder="Sharing an opportunity for Engineering Manager..." class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"></textarea>
+        </div>
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-lg shadow-blue-500/25 flex items-center justify-center gap-2">
+          <i data-lucide="send" class="w-4 h-4"></i> Send Message
+        </button>
+        <p id="form-status" class="text-xs text-center text-green-400 font-medium hidden mt-2">Message sent successfully!</p>
+      </form>
+
+      <div class="mt-12 flex justify-center gap-6">
+        <a href="https://www.linkedin.com/in/prashanth-sappanametla-77347272" target="_blank" class="text-slate-400 hover:text-blue-400 transition-colors flex items-center gap-2 text-sm">
+          <i data-lucide="linkedin" class="w-5 h-5"></i> LinkedIn Profile
+        </a>
+      </div>
+
+      <p class="text-xs text-slate-600 mt-12">&copy; 2026 Prashanth Sappanametla. Built with Tailwind CSS &amp; JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- Script for Interactivity -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Typewriter Effect for Headline
+    const headlines = ["Engineering Manager", "Senior Technical Leader", "Microservices Architect", "Delivery Manager"];
+    let count = 0;
+    let index = 0;
+    let currentText = "";
+    let letter = "";
+
+    (function type() {
+      if (count === headlines.length) count = 0;
+      currentText = headlines[count];
+      letter = currentText.slice(0, ++index);
+      document.getElementById("typed-headline").textContent = letter;
+      if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+        setTimeout(type, 2200);
+      } else {
+        setTimeout(type, 90);
+      }
+    })();
+
+    // Contact Form Handler
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const status = document.getElementById("form-status");
+      status.classList.remove("hidden");
+      e.target.reset();
+      setTimeout(() => status.classList.add("hidden"), 4000);
+    }
+  </script>
+</body>
+</html>
