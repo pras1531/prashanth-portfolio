@@ -1,388 +1,80 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prashanth Sappanametla | Engineering Manager & Technology Leader</title>
-  <meta name="description" content="Engineering Manager & Senior Technical Leader with 12+ years specializing in Java, Microservices, Spring Boot, AWS, Kafka, and Enterprise System Modernization." />
-  
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              50: '#eff6ff',
-              400: '#60a5fa',
-              500: '#3b82f6',
-              600: '#2563eb',
-              900: '#0f172a',
-              950: '#020617',
-            }
-          }
-        }
-      }
-    }
-  </script>
-  <style>
-    @keyframes pulse-glow {
-      0%, 100% { opacity: 0.15; transform: scale(1); }
-      50% { opacity: 0.3; transform: scale(1.05); }
-    }
-    .animate-glow {
-      animation: pulse-glow 8s infinite ease-in-out;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prashanth Sappanametla | Engineering Manager</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-500 selection:text-white min-h-screen">
-
-  <!-- Ambient Animated Background Lights -->
-  <div class="fixed top-0 left-1/4 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[120px] pointer-events-none animate-glow"></div>
-  <div class="fixed bottom-0 right-1/4 w-[500px] h-[500px] bg-purple-600/15 rounded-full blur-[120px] pointer-events-none animate-glow"></div>
-
-  <!-- Navigation Bar -->
-  <nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80">
-    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-      <a href="#" class="font-bold text-xl tracking-tight text-white flex items-center gap-2">
-        <span class="text-blue-500">&lt;</span>Prashanth.S <span class="text-blue-500">/&gt;</span>
-      </a>
-      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-        <a href="#about" class="hover:text-blue-400 transition-colors">Executive Profile</a>
-        <a href="#skills" class="hover:text-blue-400 transition-colors">Core Stack</a>
-        <a href="#experience" class="hover:text-blue-400 transition-colors">Experience</a>
-        <a href="#architecture" class="hover:text-blue-400 transition-colors">Architecture</a>
-        <a href="#contact" class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-lg shadow-blue-500/20">Contact / Hire</a>
-      </div>
-    </div>
-  </nav>
+<body class="font-sans bg-gray-50 text-gray-900">
 
   <!-- Hero Section -->
-  <section class="relative pt-32 pb-16 px-6 max-w-6xl mx-auto flex flex-col justify-center min-h-[90vh]">
-    
-    <!-- Recruiter Quick Summary Badges -->
-    <div class="flex flex-wrap gap-2.5 mb-6">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold shadow-md shadow-blue-500/5">
-        <span class="relative flex h-2 w-2">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-        </span>
-        Available Immediately / Notice Period
-      </div>
-      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 text-xs font-medium">
-        <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-400"></i> Hyderabad, India (Open to Remote / Hybrid)
-      </div>
-      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 text-xs font-medium">
-        <i data-lucide="award" class="w-3.5 h-3.5 text-purple-400"></i> AWS Certified Cloud Practitioner
-      </div>
+  <header class="bg-gray-900 text-white text-center py-12">
+    <h1 class="text-4xl font-bold">Prashanth Sappanametla</h1>
+    <p class="text-xl mt-2">Engineering Manager | Cloud-Native Architecture | Remote Leadership</p>
+    <div class="mt-6">
+      <a href="Prashanth_Resume.pdf" class="bg-blue-600 px-6 py-2 rounded hover:bg-blue-700">Download Resume</a>
+      <a href="https://www.linkedin.com/in/prashanth" class="ml-4 bg-green-600 px-6 py-2 rounded hover:bg-green-700">Connect on LinkedIn</a>
     </div>
+  </header>
 
-    <!-- Main Title with Typewriter Effect -->
-    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl leading-tight">
-      Prashanth Sappanametla <br/>
-      <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400" id="typed-headline">Engineering Manager</span>
-    </h1>
-
-    <!-- Narrative Executive Summary -->
-    <p class="mt-6 text-lg md:text-xl text-slate-300 max-w-3xl leading-relaxed">
-      <strong class="text-white">12+ years of software engineering &amp; technical leadership experience.</strong> Specialized in modernizing enterprise monoliths into scalable cloud-native microservices, building high-throughput distributed systems (<strong class="text-blue-400">Java, Spring Boot, Kafka, AWS</strong>), and leading engineering teams for Fortune 50 clients and global consulting leaders.
+  <!-- About Section -->
+  <section id="about" class="py-12 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      Engineering Manager with 12+ years of experience in cloud-native architecture, microservices, and distributed systems. 
+      Proven success in leading remote teams, scaling platforms, and delivering enterprise solutions across global markets. 
+      Passionate about building resilient systems and mentoring engineers for career growth.
     </p>
+  </section>
 
-    <!-- Key Recruiter Metric Grid -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 pt-8 border-t border-slate-800/80">
-      <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
-        <div class="text-3xl font-bold text-white">12+ Yrs</div>
-        <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">Total IT Experience</div>
-      </div>
-      <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
-        <div class="text-3xl font-bold text-white">Manager</div>
-        <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">Current Role at Deloitte</div>
-      </div>
-      <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
-        <div class="text-3xl font-bold text-white">Apple Client</div>
-        <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">Lead at Wipro (3 Yrs)</div>
-      </div>
-      <div class="p-4 rounded-xl bg-slate-900/50 border border-slate-800">
-        <div class="text-3xl font-bold text-white">Java &amp; AWS</div>
-        <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">Cloud &amp; Microservices</div>
-      </div>
+  <!-- Experience Section -->
+  <section id="experience" class="py-12 px-6 bg-gray-100 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-4">Experience</h2>
+    <div class="mb-6">
+      <h3 class="text-xl font-bold">Engineering Manager – XYZ Corp</h3>
+      <p class="italic">2019 – Present | Remote</p>
+      <ul class="list-disc ml-6 mt-2">
+        <li>Scaled platform capacity by 3x through event-driven microservices.</li>
+        <li>Reduced deployment errors by 40% with CI/CD automation.</li>
+        <li>Led a distributed team of 15 engineers across 3 countries.</li>
+      </ul>
     </div>
-
-    <!-- Call to Actions -->
-    <div class="flex flex-wrap gap-4 mt-8">
-      <a href="https://www.linkedin.com/in/prashanth-sappanametla-77347272" target="_blank" class="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold flex items-center gap-2 transition-all shadow-lg shadow-blue-500/25">
-        <i data-lucide="linkedin" class="w-5 h-5"></i> LinkedIn Profile
-      </a>
-      <a href="#contact" class="px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold flex items-center gap-2 transition-all">
-        <i data-lucide="mail" class="w-5 h-5"></i> Contact Directly
-      </a>
+    <div class="mb-6">
+      <h3 class="text-xl font-bold">Senior Software Engineer – ABC Tech</h3>
+      <p class="italic">2014 – 2019 | Hyderabad</p>
+      <ul class="list-disc ml-6 mt-2">
+        <li>Designed and implemented scalable APIs serving millions of requests daily.</li>
+        <li>Introduced automated testing pipelines, reducing bug count by 30%.</li>
+        <li>Mentored junior engineers, fostering a culture of continuous learning.</li>
+      </ul>
     </div>
   </section>
 
-  <!-- Core Technical Competencies / ATS Keyword Bar -->
-  <section id="skills" class="py-12 border-t border-slate-800/80 bg-slate-900/40">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-6">Core Competencies &amp; Technical Skill Set</h2>
-      <div class="flex flex-wrap gap-2.5">
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">Java 17/21</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">Spring Boot 3</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">Microservices Architecture</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">Apache Kafka</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">AWS (EC2, S3, ECS, Lambda)</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">RESTful APIs &amp; OpenAPI</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">Resilience4j &amp; Circuit Breakers</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">SQL / PostgreSQL / MySQL</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">Angular &amp; Modern Frontend</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">CI/CD Pipeline Automation</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">Agile / Scrum Team Leadership</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 text-sm font-medium border border-slate-700">Generative AI &amp; Enterprise Integration</span>
-      </div>
+  <!-- Skills Section -->
+  <section id="skills" class="py-12 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-4">Core Skills</h2>
+    <div class="grid grid-cols-2 gap-4 text-lg">
+      <p>Cloud Architecture (AWS, Azure, GCP)</p>
+      <p>Microservices & Event-Driven Systems</p>
+      <p>CI/CD Automation (GitHub Actions, Jenkins)</p>
+      <p>Remote Team Leadership & Agile Delivery</p>
+      <p>Distributed Systems & Scalability</p>
+      <p>Collaboration Tools (Jira, Confluence, Slack, Zoom)</p>
     </div>
   </section>
 
-  <!-- Executive Profile Narrative -->
-  <section id="about" class="py-20 border-t border-slate-800/80 bg-slate-950">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-white mb-2">Executive Profile Narrative</h2>
-      <p class="text-slate-400 mb-8">Bridging hands-on software architecture with engineering management.</p>
-
-      <div class="grid md:grid-cols-2 gap-8 leading-relaxed text-slate-300 text-base">
-        <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-4">
-          <h3 class="text-xl font-bold text-white flex items-center gap-2">
-            <i data-lucide="cpu" class="w-5 h-5 text-blue-400"></i> Technical Architecture
-          </h3>
-          <p>
-            Specialized in designing resilient, high-throughput microservices using <strong class="text-white">Java 17/21</strong>, <strong class="text-white">Spring Boot 3</strong>, <strong class="text-white">Apache Kafka</strong>, and <strong class="text-white">AWS Cloud Infrastructure</strong>.
-          </p>
-          <p>
-            Demonstrated capability in decoupling complex monolithic legacy systems into event-driven microservices while enforcing resilience design patterns (Circuit Breakers, Rate Limiting, and CQRS) to protect uptime during extreme request bursts.
-          </p>
-        </div>
-
-        <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-4">
-          <h3 class="text-xl font-bold text-white flex items-center gap-2">
-            <i data-lucide="users" class="w-5 h-5 text-indigo-400"></i> Delivery &amp; Team Leadership
-          </h3>
-          <p>
-            Experienced in leading engineering squads, implementing continuous delivery pipelines, and enforcing rigorous code quality and automated testing standards.
-          </p>
-          <p>
-            Adept at working directly with executive stakeholders and client product leaders (including Apple engagements), aligning engineering roadmaps, and evaluating GenAI tooling to accelerate team sprint velocity.
-          </p>
-        </div>
-      </div>
-    </div>
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-6 bg-gray-900 text-white text-center">
+    <h2 class="text-3xl font-semibold mb-4">Let’s Work Together</h2>
+    <p class="mb-4">Available for remote engineering leadership opportunities worldwide.</p>
+    <a href="mailto:prashanth@example.com" class="bg-blue-600 px-6 py-2 rounded hover:bg-blue-700">Email Me</a>
   </section>
 
-  <!-- Career Experience Timeline -->
-  <section id="experience" class="py-20 border-t border-slate-800/80 bg-slate-900/20">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-white mb-2">Professional Career Track</h2>
-      <p class="text-slate-400 mb-12">Track record of progressive engineering leadership and technical delivery.</p>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2026 Prashanth Sappanametla. All rights reserved.</p>
+  </footer>
 
-      <div class="space-y-8 relative before:absolute before:inset-0 before:left-3 md:before:left-1/2 before:-ml-px before:w-0.5 before:bg-slate-800">
-
-        <!-- Role 1: Deloitte -->
-        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-lg shadow-blue-500/50">
-            <i data-lucide="briefcase" class="w-3.5 h-3.5"></i>
-          </div>
-          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl">
-            <div class="flex justify-between items-start mb-2">
-              <div>
-                <h3 class="font-bold text-xl text-white">Manager</h3>
-                <span class="text-blue-400 font-medium text-sm">Deloitte</span>
-              </div>
-              <span class="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">Feb 2025 – Present</span>
-            </div>
-            <ul class="text-slate-300 text-sm space-y-2 mt-4 list-disc list-inside leading-relaxed">
-              <li>Directing cross-functional engineering teams in modernizing enterprise backend platforms, strangling legacy monolithic codebases into distributed cloud microservices.</li>
-              <li>Architected event-driven microservices using <strong class="text-white">Java 17/21</strong>, <strong class="text-white">Spring Boot 3</strong>, <strong class="text-white">Kafka</strong>, and <strong class="text-white">AWS</strong>, significantly improving throughput and reliability.</li>
-              <li>Spearheaded Generative AI evaluation and workflow automation within dev teams to accelerate sprint cycles and code review efficiency.</li>
-              <li>Managed end-to-end delivery roadmaps, sprint planning, client relationship management, and cross-team executive updates.</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Role 2: Wipro -->
-        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-800 text-slate-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-            <i data-lucide="code" class="w-3.5 h-3.5"></i>
-          </div>
-          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl">
-            <div class="flex justify-between items-start mb-2">
-              <div>
-                <h3 class="font-bold text-xl text-white">Lead Engineer</h3>
-                <span class="text-blue-400 font-medium text-sm">Wipro (Apple Account)</span>
-              </div>
-              <span class="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">Feb 2022 – Jan 2025</span>
-            </div>
-            <ul class="text-slate-300 text-sm space-y-2 mt-4 list-disc list-inside leading-relaxed">
-              <li>Served as Technical Lead for high-volume backend platforms supporting tier-1 global client application ecosystems.</li>
-              <li>Architected microservices using <strong class="text-white">Java</strong>, <strong class="text-white">Spring Boot</strong>, and <strong class="text-white">REST APIs</strong>, integrating fault-tolerance mechanisms (Resilience4j circuit breakers, rate limiters) to handle massive traffic surges.</li>
-              <li>Led and mentored 8+ full-stack and backend software developers, championing code quality standards, automated unit/integration testing, and code review governance.</li>
-              <li>Partnered directly with client product leadership to align technical solutions with business milestones and seamless deployment releases.</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Role 3: HCL Technologies -->
-        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-800 text-slate-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-            <i data-lucide="layers" class="w-3.5 h-3.5"></i>
-          </div>
-          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl">
-            <div class="flex justify-between items-start mb-2">
-              <div>
-                <h3 class="font-bold text-xl text-white">Technical Lead</h3>
-                <span class="text-blue-400 font-medium text-sm">HCL Technologies</span>
-              </div>
-              <span class="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">Aug 2019 – Jan 2022</span>
-            </div>
-            <ul class="text-slate-300 text-sm space-y-2 mt-4 list-disc list-inside leading-relaxed">
-              <li>Led development of high-reliability microservices and RESTful API frameworks for large-scale enterprise solutions.</li>
-              <li>Integrated <strong class="text-white">Apache Kafka</strong> event streams for low-latency asynchronous processing across financial application platforms (e.g., PayLah Wallet integrations).</li>
-              <li>Optimized automated CI/CD deployment pipelines on AWS, decreasing operational downtime and deployment rollbacks.</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Role 4: Cognizant -->
-        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-          <div class="flex items-center justify-center w-7 h-7 rounded-full bg-slate-800 text-slate-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-            <i data-lucide="database" class="w-3.5 h-3.5"></i>
-          </div>
-          <div class="w-[calc(100%-2.5rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl">
-            <div class="flex justify-between items-start mb-2">
-              <div>
-                <h3 class="font-bold text-xl text-white">Associate</h3>
-                <span class="text-blue-400 font-medium text-sm">Cognizant Technology Solutions</span>
-              </div>
-              <span class="text-xs px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 font-mono">Apr 2014 – Jun 2019</span>
-            </div>
-            <ul class="text-slate-300 text-sm space-y-2 mt-4 list-disc list-inside leading-relaxed">
-              <li>Core engineering contributor for enterprise digital asset management products (<strong class="text-white">AssetSERV</strong>).</li>
-              <li>Engineered full-stack features using <strong class="text-white">Java</strong>, <strong class="text-white">Spring Framework</strong>, <strong class="text-white">Hibernate</strong>, and relational databases (<strong class="text-white">MySQL / MSSQL</strong>).</li>
-              <li>Optimized complex database schemas, indexing strategies, and stored procedures to boost application performance.</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Architectural Focus Grid -->
-  <section id="architecture" class="py-20 border-t border-slate-800/80 bg-slate-950">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-bold text-white mb-2">Architectural Principles</h2>
-      <p class="text-slate-400 mb-10">Standardized patterns used when architecting cloud-native solutions.</p>
-
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/40 transition-colors">
-          <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-4">
-            <i data-lucide="git-fork" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">Monolith Migration</h3>
-          <p class="text-sm text-slate-400 leading-relaxed">Decomposing complex legacy codebases into domain-driven, cloud-ready microservices using the Strangler Fig pattern.</p>
-        </div>
-
-        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-purple-500/40 transition-colors">
-          <div class="w-10 h-10 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center mb-4">
-            <i data-lucide="activity" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">Event Streaming</h3>
-          <p class="text-sm text-slate-400 leading-relaxed">Designing real-time event-driven pipelines utilizing Apache Kafka for asynchronous communication and data integration.</p>
-        </div>
-
-        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/40 transition-colors">
-          <div class="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-4">
-            <i data-lucide="shield-check" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">Resilience &amp; Uptime</h3>
-          <p class="text-sm text-slate-400 leading-relaxed">Incorporating Resilience4j circuit breakers, bulkhead isolation, and automated retries to ensure 99.9%+ availability.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Form & Hiring Actions -->
-  <section id="contact" class="py-20 border-t border-slate-800/80 bg-slate-900/30">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold text-white">Get In Touch</h2>
-      <p class="mt-2 text-slate-400 max-w-xl mx-auto">
-        Actively exploring leadership roles: <strong class="text-white">Engineering Manager</strong>, <strong class="text-white">Senior EM</strong>, and <strong class="text-white">Technical Delivery Lead</strong> (Hyderabad or Remote).
-      </p>
-
-      <!-- Contact Form -->
-      <form id="contact-form" onsubmit="handleFormSubmit(event)" class="mt-8 text-left max-w-xl mx-auto space-y-4 p-8 rounded-2xl bg-slate-900 border border-slate-800 shadow-2xl">
-        <div>
-          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Your Name</label>
-          <input type="text" required placeholder="Hiring Manager / Recruiter Name" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors" />
-        </div>
-        <div>
-          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Email Address</label>
-          <input type="email" required placeholder="name@company.com" class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors" />
-        </div>
-        <div>
-          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Role Opportunity / Message</label>
-          <textarea rows="4" required placeholder="Sharing details regarding an Engineering Manager role..." class="w-full px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"></textarea>
-        </div>
-        <button type="submit" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-lg shadow-blue-500/25 flex items-center justify-center gap-2">
-          <i data-lucide="send" class="w-4 h-4"></i> Send Message
-        </button>
-        <p id="form-status" class="text-xs text-center text-green-400 font-medium hidden mt-2">Message received! I will get back to you shortly.</p>
-      </form>
-
-      <div class="mt-12 flex justify-center gap-6">
-        <a href="https://www.linkedin.com/in/prashanth-sappanametla-77347272" target="_blank" class="text-slate-400 hover:text-blue-400 transition-colors flex items-center gap-2 text-sm font-medium">
-          <i data-lucide="linkedin" class="w-5 h-5"></i> Connect on LinkedIn
-        </a>
-      </div>
-
-      <p class="text-xs text-slate-600 mt-12">&copy; 2026 Prashanth Sappanametla. Built with HTML5, Tailwind CSS &amp; JavaScript.</p>
-    </div>
-  </section>
-
-  <!-- Script for Interactivity -->
-  <script>
-    // Initialize Lucide Icons
-    lucide.createIcons();
-
-    // Typewriter Effect for Headline
-    const headlines = ["Engineering Manager", "Senior Technical Lead", "Microservices Architect", "Delivery Lead"];
-    let count = 0;
-    let index = 0;
-    let currentText = "";
-    let letter = "";
-
-    (function type() {
-      if (count === headlines.length) count = 0;
-      currentText = headlines[count];
-      letter = currentText.slice(0, ++index);
-      document.getElementById("typed-headline").textContent = letter;
-      if (letter.length === currentText.length) {
-        count++;
-        index = 0;
-        setTimeout(type, 2200);
-      } else {
-        setTimeout(type, 90);
-      }
-    })();
-
-    // Contact Form Submission Handler
-    function handleFormSubmit(e) {
-      e.preventDefault();
-      const status = document.getElementById("form-status");
-      status.classList.remove("hidden");
-      e.target.reset();
-      setTimeout(() => status.classList.add("hidden"), 4000);
-    }
-  </script>
 </body>
 </html>
